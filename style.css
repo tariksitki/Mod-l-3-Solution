@@ -1,0 +1,167 @@
+body{
+    margin:0 ;
+
+}
+
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 300px) {
+    header{
+        margin: 0em;
+        position: relative;
+        background-color: dimgray;
+        height: 10vh;
+ 
+
+    }
+    header>h2{
+        float: left;
+        margin-top: 2%;
+        border: none;
+    }
+
+header #myBtn:hover{
+
+            background-color: aqua;
+              }
+    .myNav{
+     
+     display: block;
+
+    }
+    #myBtn{
+        float: right;
+        margin:2% 1%;
+    }
+
+    h1{
+        text-align: center;
+    }
+    
+h4{           
+
+      text-align: center;
+      font-size: 16px;
+    }
+
+    
+      .food1{
+        background-color: #dbd3d3;
+        width: 400px;
+        height: 800px;
+        display: inline-block;
+        margin: 10px;
+        border: 2px solid #000;
+   
+    }
+    .food2{
+        background-color: #dbd3d3;
+        width: 400px;
+        height: 800px;
+        display: inline-block;
+        margin: 10px;
+        border: 2px solid #000;
+
+    }
+    .food3{
+        background-color: #dbd3d3;
+        width: 400px;
+        height: 800px;
+        display: inline-block;
+        margin: 10px;
+        border: 2px solid #000;
+    
+    }
+
+    
+    #chicken>h2{
+        background: rgb(184, 129, 129);
+    }
+    #beef>h2{
+        background: rgb(128, 21, 21);
+        color: #fff;
+    }
+    #sushi>h2{
+        background: rgb(213, 214, 116);
+    }
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+    header{
+        margin: 0em;
+        position: relative;
+        background-color: dimgray;
+        height: 10vh;
+ 
+
+    }
+    header>h2{
+        float: left;
+        margin-top: 2%;
+        border: none;
+    }
+    nav{
+     
+     display: none;
+
+    }
+    #myBtn{
+        display: none;
+        float: right;
+        margin:2% 1%;
+    }
+    #myBtn:active{
+   background-color: aquamarine;
+    }
+    h1{
+        text-align: center;
+    }
+    
+h4{           
+
+      text-align: center;
+      font-size: 16px;
+    }
+
+    
+      .food1{
+        background-color: #dbd3d3;
+        width: 400px;
+        height: 800px;
+        display: inline-block;
+        margin: 10px;
+        border: 2px solid #000;
+   
+    }
+    .food2{
+        background-color: #dbd3d3;
+        width: 400px;
+        height: 800px;
+        display: inline-block;
+        margin: 10px;
+        border: 2px solid #000;
+
+    }
+    .food3{
+        background-color: #dbd3d3;
+        width: 400px;
+        height: 800px;
+        display: inline-block;
+        margin: 10px;
+        border: 2px solid #000;
+    
+    }
+
+    
+    #chicken>h2{
+        background: rgb(184, 129, 129);
+    }
+    #beef>h2{
+        background: rgb(128, 21, 21);
+        color: #fff;
+    }
+    #sushi>h2{
+        background: rgb(213, 214, 116);
+    }
+}
