@@ -4,7 +4,7 @@ body{
 }
 
 
-/* Small devices (portrait tablets and large phones, 600px and up) */
+
 @media only screen and (min-width: 300px) {
     header{
         margin: 0em;
@@ -24,20 +24,7 @@ header #myBtn:hover{
 
             background-color: aqua;
               }
-    .myNav{
-     
-     display: block;
-
-    }
-    #myBtn{
-        float: right;
-        margin:2% 1%;
-    }
-
-    h1{
-        text-align: center;
-    }
-    
+   
 h4{           
 
       text-align: center;
